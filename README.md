@@ -1,0 +1,1 @@
+# Solution-to-pod-errors-for-M1-M2-MacBooks.
