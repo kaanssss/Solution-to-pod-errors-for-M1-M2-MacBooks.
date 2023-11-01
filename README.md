@@ -8,7 +8,7 @@
 
 2) There is a compilation error after XCode 14.3.1 and "Ventura 13.4" system update. To solve this, the information written at the bottom needs to be added to the "Podfile" file.
   
-    # Uncomment the next line to define a global platform for your project 
+    -#- Uncomment the next line to define a global platform for your project 
 platform :ios, '12.0' 
 project 'YourProject.xcodeproj'  
 target 'YourProject' do 
