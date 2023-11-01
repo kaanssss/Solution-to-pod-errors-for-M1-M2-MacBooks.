@@ -8,31 +8,8 @@
 
 2) There is a compilation error after XCode 14.3.1 and "Ventura 13.4" system update. To solve this, the information written at the bottom needs to be added to the "Podfile" file.
   
-    -#- Uncomment the next line to define a global platform for your project 
-platform :ios, '12.0' 
-project 'YourProject.xcodeproj'  
-target 'YourProject' do 
- 	 # Comment the next line if you don't want to use dynamic frameworks 
- 	 use_frameworks! 
- 	 # Pods for YourProject 
- 	 pod 'SnapKit', '~> 5.0.0' 
- 	 pod 'Kingfisher', '~> 7.6.1' 
- 
-            . 
-            . 
-            . 
- 
-post_install do |installer| 
-    	installer.generated_projects.each do |project| 
-     	 project.targets.each do |target| 
-     	   target.build_configurations.each do |config| 
-     	     config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0' 
-     	   end 
-   	   end 
- 	   end 
-  end 
- 
-end 
+    <img width="639" alt="Podfile" src="https://github.com/kaanssss/Solution-to-pod-errors-for-M1-M2-MacBooks./assets/74143983/ca8d7c45-915d-4107-b80c-31134bdcd2d2">
+
 
   The last part indicates that the "YourProject" project has set the minimum iOS version to '11.0' and that these configurations will be used during the build process.
 
