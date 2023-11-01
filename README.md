@@ -22,7 +22,7 @@
 
 3) If there is a problem with the archive process.
    
-    <img width="348" alt="Pod" src="https://github.com/kaanssss/Solution-to-pod-errors-for-M1-M2-MacBooks./assets/74143983/12bae760-c72f-40d4-9b19-2e36c9ed9b58">
+    <img width="345" alt="Pod" src="https://github.com/kaanssss/Solution-to-pod-errors-for-M1-M2-MacBooks./assets/74143983/5a8747bb-1c3e-4893-a649-bddf01d82d12">
 
     <img width="1084" alt="PodFramework" src="https://github.com/kaanssss/Solution-to-pod-errors-for-M1-M2-MacBooks./assets/74143983/f603235a-5994-4006-bd6b-6a2dae634eed">
 
